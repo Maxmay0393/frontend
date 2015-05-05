@@ -508,7 +508,7 @@ select,
 table,
 textarea {
   /*font-family: "Helvetica Neue", Verdana, Arial, sans-serif; */
-  color: #1ebd9d;
+  color: #000000;
   font-size: 14px;
   line-height: 1.5;
 }
@@ -697,7 +697,7 @@ h6, .h6 {
   line-height: 1.4;
   text-rendering: optimizeSpeed;
   text-transform: uppercase;
-  color: #000000;
+  color: #636363;
   margin-bottom: 0;
   text-transform: uppercase;
   font-weight: 600;
@@ -2507,9 +2507,11 @@ body.customer-account .data-table .show-details .summary-collapse:hover:before {
 .no-display {
   display: none !important;
 }
-
-.nobr,
-.nowrap {
+span#str {
+    white-space: nowrap;
+    font-size: 14px;
+}
+.nobr{
  /*white-space: nowrap;    */
 }
 td#s1 {
@@ -2934,14 +2936,20 @@ form .form-instructions {
  * ============================================ */
 .data-table {
   width: 100%;
+    color: black;
 }
-
+td#show {
+    width: 358px;
+    font-size: 14px;
+}
 .data-table td,
 .data-table th {
   padding: 10px;
   vertical-align: top;
 }
-
+select#select-language {
+    color: #1ebd9d;
+}
 .data-table th {
   background: #f4f4f4;
   text-transform: uppercase;
@@ -3836,7 +3844,7 @@ form#search_mini_form {
     padding-top: 6px;
 }
 #search {
-    width: 735px;
+    width: 743px;
     /* height: 40px; */
     padding-right: 40px;
     font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
@@ -3849,7 +3857,7 @@ form#search_mini_form {
   position: absolute;
   top: 0;
   right: 0;
-    width: 85px;
+    /*width: 85px;*/
     height: 30px;
     border: 0;
     background: #535355;
@@ -4291,9 +4299,9 @@ form#search_mini_form {
     top: 20px;
     /* float: right;
     left:  73.9%;    */
-      position: relative;
-  top: 19.3px;
-  float: right;
+    position: relative;
+    top: 19.3px;
+    float: right;
 
 }
 div#menuu {
