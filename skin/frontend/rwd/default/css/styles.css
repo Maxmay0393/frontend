@@ -3574,7 +3574,7 @@ a.skip-link {
 	*/
       display: block;
       position: relative;
-      bottom: 69px;
+      bottom: 62px;
       /* right: 176px; */
       float: right;
    
@@ -3695,7 +3695,7 @@ li.level1.menu-active {
     /* Level 1+ */
   }
   .nav-primary a.level0 {
-    padding: 0 25px;
+    padding: 0 23px;
   }
   .nav-primary li.level0,
   .nav-primary a.level0 {
